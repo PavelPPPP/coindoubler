@@ -1,0 +1,19 @@
+.section {
+	text-align: center;
+	padding: rem(100px) 0;
+}
+
+.section__title {
+	text-transform: uppercase;
+	color: $yellow;
+	@include montserrat(bold);
+	font-size: rem(24px);
+	padding-bottom: rem(25px);
+}
+
+.section__text {
+	color: $grey;
+	@include montserrat(light);
+	font-size: rem(18px);
+	padding-bottom: rem(45px);
+}

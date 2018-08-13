@@ -1,0 +1,27 @@
+.terms-and-conditions {
+	text-align: left;
+	font-size: rem(14px);
+
+	p {
+
+		&:empty {
+			padding: rem(20px);
+		}
+		//padding: rem(10px) 0;
+		line-height: rem(35px);
+		strong {
+			@include montserrat(bold);
+		}
+	}
+
+	ul {
+		li {
+			//padding: rem(10px) 0;
+			line-height: rem(35px);
+		}
+	}
+
+	&:empty {
+		padding: rem(20px);
+	}
+}

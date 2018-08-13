@@ -1,0 +1,24 @@
+//vars
+$white: #f9f9f9;
+$grey: #767676;
+$yellow: #ffba00;
+
+$width-container: 1146px;
+$height-footer: 50px;
+$padding-container: 15px;
+
+//layout
+@import "_misk/mixins";
+@import "fonts/fonts";
+@import "_misk/normalize";
+@import "_misk/adjustment";
+
+//section
+@import "section/section";
+@import "section/header";
+@import "section/double_coin";
+@import "section/table";
+@import "section/FAQ";
+@import "section/terms__conditions";
+@import "section/contanct__us";
+@import "section/footer";

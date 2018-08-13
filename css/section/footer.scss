@@ -1,0 +1,36 @@
+.footer {
+	width: 100%;
+	padding-top: rem(50px);
+	text-align: center;
+	@include box-sizing;
+}
+
+.sponsor__list {
+	@include inline-block(middle);
+	padding-bottom: rem(50px);
+}
+
+.sponsor__item {
+	@include inline-block(middle);
+	padding: 0 rem(60px);
+}
+
+.sponsor__link {
+	display: block;
+	@extend %valign-block;
+}
+
+.sponsor__logo {
+	@include inline-block(middle);
+}
+
+.wrap__copyright {
+	width: 100%;
+	background: #252525;
+}
+
+.copyright {
+	@include montserrat(light);
+	font-size: rem(14px);
+	padding: rem(15px) 0;
+}
